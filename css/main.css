@@ -38,3 +38,6 @@ hr{
 	width:20em;
 	margin: auto
 }
+html, body {
+  overflow-x: hidden;
+}
