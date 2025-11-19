@@ -42,7 +42,6 @@ html, body {
   overflow-x: hidden;
 }
 .jumbotronvideo {
-    position: relative;
     object-fit:none;
     object-position: left;
     height: 50%;
