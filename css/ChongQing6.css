@@ -1,0 +1,50 @@
+.bg-image{
+   position: relative;
+}
+
+.mask{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0px;
+   top: 0px;
+}
+.navbar-brand{
+	font-size: 2em;
+}
+.nav-item{
+margin-right: 1em;
+}
+.navbar{
+	margin: auto;
+}
+.navbar-custom{
+    /* fallback for old browsers */
+    background: #232323;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to top, rgba(35,35,35,0.5), rgba(55,55,55,0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, rgba(35,35,35,0.5), rgba(55,55,55,0.5))
+}
+.heading-text{
+	font-size:6em;
+}
+hr{
+	opacity:1;
+}
+.footer-hr{
+	width:20em;
+	margin: auto
+}
+html, body {
+  overflow-x: hidden;
+}
+.jumbotronvideo {
+    object-fit:none;
+    object-position: left;
+    height: 50%;
+    max-height: 500px;
+    width:100%;
+}
