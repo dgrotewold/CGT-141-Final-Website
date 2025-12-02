@@ -1,7 +1,12 @@
 .bg-image{
    position: relative;
 }
-
+.bg-page {
+    background-color: #B5B5B5;
+}
+.bg-alternate {
+    background-color: #EFF8FF;
+}
 .mask{
    position: absolute;
    width: 100%;
