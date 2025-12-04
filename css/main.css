@@ -20,18 +20,12 @@
 .nav-item{
 margin-right: 1em;
 }
-.navbar{
-	margin: auto;
+.navbar {
+    margin: auto;
+    background: #063B61;
 }
-.navbar-custom{
-    /* fallback for old browsers */
-    background: #232323;
-  
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to top, rgba(35,35,35,0.5), rgba(55,55,55,0.5));
-  
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to top, rgba(35,35,35,0.5), rgba(55,55,55,0.5))
+.footer {
+    background: #063B61;
 }
 .heading-text{
 	font-size:6em;
