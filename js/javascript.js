@@ -16,6 +16,12 @@ function searchFunction() {
         location.href = "https://www.wanderlustblog.page/pages/hongkong.html"
     } else if (text == "chongqing") {
         location.href = "https://www.wanderlustblog.page/pages/chongqing.html"
+    } else if (text == "home" || text == "index") {
+        location.href = "https://www.wanderlustblog.page/index.html"
+    } else if (text == "about") {
+        location.href = "https://www.wanderlustblog.page/pages/aboutus.html"
+    } else if (text == "contact us" || text == "contactus") {
+        location.href = "https://www.wanderlustblog.page/pages/contactus.html"
     } else if (text == "gaster") {
         location.href = "https://www.webpagetest.org/blank.html"
     }
