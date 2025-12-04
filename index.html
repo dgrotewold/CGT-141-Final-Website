@@ -10,7 +10,7 @@
 	<link rel="icon" href="/CGT-141-Final-Website/img/icon.png">
 	<link rel="icon" href="img/icon.png">
 	<link rel="stylesheet" href="css/main.css">
-	<!--<link rel="stylesheet" href="/CGT-141-Final-Website/css/main.css"> -->
+	<script src="js/javascript.js" type="text/javascript"></script>
 	<!-- Website by David Grotewold, Juan Gonzalez-Laguan, Louis-Maximilian Hermann, Lina Lin, Luke Lutterbie & Chalabia Mahamat -->
 </head>
 <body>
@@ -35,12 +35,12 @@
 								Destinations
 							</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="pages/location_template.html">Spain</a></li>
-								<li><a class="dropdown-item" href="pages/location_template2.html">Dubai</a></li>
-								<li><a class="dropdown-item" href="pages/location_template3.html">Canada</a></li>
-								<li><a class="dropdown-item" href="pages/location_template4.html">France</a></li>
-								<li><a class="dropdown-item" href="pages/location_template5.html">Hong Kong</a></li>
-								<li><a class="dropdown-item" href="pages/location_template6.html">Chongqing</a></li>
+								<li><a class="dropdown-item" href="pages/spain.html">Spain</a></li>
+								<li><a class="dropdown-item" href="pages/dubai.html">Dubai</a></li>
+								<li><a class="dropdown-item" href="pages/canada.html">Canada</a></li>
+								<li><a class="dropdown-item" href="pages/france.html">France</a></li>
+								<li><a class="dropdown-item" href="pages/hongkong.html">Hong Kong</a></li>
+								<li><a class="dropdown-item" href="pages/chongqing.html">Chongqing</a></li>
 							</ul>
 						</li>
 						<li class="nav-item m-auto px-3">
@@ -51,8 +51,8 @@
 						</li>
 					</ul>
 				</div>
-				<form class="d-flex m-auto px-3" role="search">
-					<input class="navbar-form me-a" type="search" placeholder="Search" aria-label="Search" />
+				<form class="d-flex m-auto px-3" role="search" onSubmit="searchFunction()">
+					<input class="navbar-form me-a" type="text" name="search" placeholder="Search" id="searchForm" aria-label="Search"/>
 					<button class="btn btn-dark" type="submit">Search</button>
 				</form>
 			</div>
