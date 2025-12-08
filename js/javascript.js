@@ -1,8 +1,10 @@
 function searchFunction() {
     var form = document.getElementById("searchForm")
+    var errorIcon = document.getElementById("errorIcon")
     var text = form.value.toLowerCase();
     // remove any characters but letters
     text = text.replace(/[^A-Za-z]+/g, '');
+    errorIcon.style.display ='none'
     console.log(text);
     if (text == "spain") {
         location.href = "https://www.wanderlustblog.page/pages/spain.html"
@@ -24,5 +26,7 @@ function searchFunction() {
         location.href = "https://www.wanderlustblog.page/pages/contactus.html"
     } else if (text == "gaster") {
         location.href = "https://www.webpagetest.org/blank.html"
+    } else if (text == ""){
+    errorIcon.style.display ='block'
     }
 }
