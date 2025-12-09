@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'BodyFont'; /*a name to be used later*/
+    src: url('../fonts/'LEMONMILK-Regular.otf); /*URL to font*/
+}
 .bg-image{
    position: relative;
 }
@@ -38,7 +42,8 @@ hr{
 	margin: auto
 }
 html, body {
-  overflow-x: hidden;
+    overflow-x: hidden;
+    font-family: BodyFont, Helvetica, sans-serif;
 }
 .jumbotronvideo {
     object-fit:none;
@@ -46,4 +51,7 @@ html, body {
     height: 50%;
     max-height: 500px;
     width:100%;
+}
+p {
+    font-size: 1.25rem;
 }
