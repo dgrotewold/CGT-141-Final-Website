@@ -24,7 +24,9 @@ function searchFunction() {
         location.href = "https://www.wanderlustblog.page/pages/contactus.html"
     } else if (text == "gaster") {
         location.href = "https://www.webpagetest.org/blank.html"
-    } else if (text == ""){
+    } else if (text == "") {
         form.placeholder = "Please enter text";
+    } else {
+        form.value = "Page not found"
     }
 }
