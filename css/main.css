@@ -1,7 +1,3 @@
-@font-face {
-    font-family: 'BodyFont'; /*a name to be used later*/
-    src: url('../fonts/'LEMONMILK-Regular.otf); /*URL to font*/
-}
 .bg-image{
    position: relative;
 }
@@ -22,7 +18,7 @@
 	font-size: 2em;
 }
 .nav-item{
-margin-right: 1em;
+    margin-right: 1em;
 }
 .navbar {
     margin: auto;
@@ -43,7 +39,6 @@ hr{
 }
 html, body {
     overflow-x: hidden;
-    font-family: BodyFont, Helvetica, sans-serif;
 }
 .jumbotronvideo {
     object-fit:none;
