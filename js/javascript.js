@@ -8,8 +8,8 @@ function searchFunction() {
         location.href = "https://www.wanderlustblog.page/pages/spain.html"
     } else if (text == "dubai") {
         location.href = "https://www.wanderlustblog.page/pages/dubai.html"
-    } else if (text == "canada") {
-        location.href = "https://www.wanderlustblog.page/pages/canada.html"
+    } else if (text == "toronto") {
+        location.href = "https://www.wanderlustblog.page/pages/toronto.html"
     } else if (text == "france") {
         location.href = "https://www.wanderlustblog.page/pages/france.html"
     } else if (text == "hong kong" || text == "hongkong") {
