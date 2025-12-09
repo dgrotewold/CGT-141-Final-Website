@@ -1,6 +1,5 @@
 function searchFunction() {
     var form = document.getElementById("searchForm")
-    var errorIcon = document.getElementById("errorIcon")
     var text = form.value.toLowerCase();
     // remove any characters but letters
     text = text.replace(/[^A-Za-z]+/g, '');
