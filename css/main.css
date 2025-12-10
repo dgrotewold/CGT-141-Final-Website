@@ -40,6 +40,10 @@ hr{
 html, body {
     overflow-x: hidden;
 }
+.socialIcon{
+    min-width:60px;
+    margin:10px;
+}
 .jumbotronvideo {
     object-fit:none;
     object-position: left;
