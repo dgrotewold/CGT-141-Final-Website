@@ -18,46 +18,7 @@
 	<!-- Page Container -->
 	<div class="container-fluid p-0 bg-page">
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-xl h3 pb-0">
-			<div class="container-fluid p-0">
-				<a class="navbar-brand text-white" href="../">
-					<img class="img-fluid m-4" src="../img/header.png" alt="logo" style="min-width:360px; max-width:30%;" />
-				</a>
-				<button class="navbar-toggler navbar-dark m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item m-auto px-3">
-							<a class="nav-link active text-white" aria-current="page" href="../">Home</a>
-						</li>
-						<li class="nav-item dropdown text-white m-auto px-3">
-							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								Destinations
-							</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="spain.html">Spain</a></li>
-								<li><a class="dropdown-item" href="dubai.html">Dubai</a></li>
-								<li><a class="dropdown-item" href="toronto.html">Toronto</a></li>
-								<li><a class="dropdown-item" href="france.html">France</a></li>
-								<li><a class="dropdown-item" href="hongkong.html">Hong Kong</a></li>
-								<li><a class="dropdown-item" href="chongqing.html">Chongqing</a></li>
-							</ul>
-						</li>
-						<li class="nav-item m-auto px-3">
-							<a class="nav-link text-white" href="aboutus.html">About</a>
-						</li>
-						<li class="nav-item m-auto px-3">
-							<a class="nav-link text-white text-nowrap" href="contactus.html">Contact Us</a>
-						</li>
-					</ul>
-				</div>
-				<form class="d-flex m-auto w-75 px-3" role="search" action="javascript:searchFunction()" style="max-width:400px">
-					<input class="navbar-form w-100 me-a" type="text" name="search" placeholder="Search" id="searchForm" aria-label="Search" />
-					<button class="btn btn-dark" type="submit">Search</button>
-				</form>
-			</div>
-		</nav>
+		<?php include '../php/header.php'; ?>
 		<!--page container-->
 		<div class="container bg-light">
 			<!-- Jumbotron-->
@@ -179,21 +140,7 @@
 			</div>
 		</div>
 		<!--Footer-->
-		<div class="container-fluid text-center bg-image p-5 text-white mx-0" style="background-image: url(../img/Lina/footerDark.jpg); background-size:cover;">
-			<div class="container">
-				<div class="p-4">
-					<h4 class="text-center p-3">
-						Chongqing is the kind of city that surprises you at every turn. From it's layered streets and glowing night views to the rivers, mountains, and unforgettable hotpot, every moment felt full of life and character. Experiencing it firsthand made me realize how unique it really is
-						and why it's worth seeing for yourself. If you get the chance, go wander it's streets, taste it's flavors, and take in the views; Chongqing leaves an impression that's hard to forget.
-					</h4>
-					<img src="../img/contactus.png" alt="Contact Us" style="min-width:50px; max-width:150px;" />
-					<h2> Have any questions?</h2>
-					<p> Reach out to us <a href="contactus.html">here</a>.</p>
-				</div>
-				<hr class="border-5 border-light" />
-				<img class="img-fluid d-block mx-auto mt-5" src="../img/logo.png" style="min-width:300px; max-width:40%;" alt="logo" />
-			</div>
-		</div>
+		<?php include '../php/footer.php'; ?>
 	</div>
 </body>
 </html>

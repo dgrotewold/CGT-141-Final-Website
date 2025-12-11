@@ -17,46 +17,7 @@
 	<!-- Page Container -->
 	<div class="container-fluid p-0 bg-page">
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-xl h3 pb-0">
-			<div class="container-fluid p-0">
-				<a class="navbar-brand text-white" href="/">
-					<img class="img-fluid m-4" src="img/header.png" alt="logo" style="min-width:360px; max-width:30%;" />
-				</a>
-				<button class="navbar-toggler navbar-dark m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item m-auto px-3">
-							<a class="nav-link active text-white" aria-current="page" href="/">Home</a>
-						</li>
-						<li class="nav-item dropdown text-white m-auto px-3">
-							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								Destinations
-							</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="pages/spain.html">Spain</a></li>
-								<li><a class="dropdown-item" href="pages/dubai.html">Dubai</a></li>
-								<li><a class="dropdown-item" href="pages/toronto.html">Toronto</a></li>
-								<li><a class="dropdown-item" href="pages/france.html">France</a></li>
-								<li><a class="dropdown-item" href="pages/hongkong.html">Hong Kong</a></li>
-								<li><a class="dropdown-item" href="pages/chongqing.html">Chongqing</a></li>
-							</ul>
-						</li>
-						<li class="nav-item m-auto px-3">
-							<a class="nav-link text-white" href="pages/aboutus.html">About</a>
-						</li>
-						<li class="nav-item m-auto px-3">
-							<a class="nav-link text-white text-nowrap" href="pages/contactus.html">Contact Us</a>
-						</li>
-					</ul>
-				</div>
-				<form class="d-flex m-auto w-75 px-3" role="search" action="javascript:searchFunction()" style="max-width:400px">
-					<input class="navbar-form w-100 me-a" type="text" name="search" placeholder="Search" id="searchForm" aria-label="Search" />
-					<button class="btn btn-dark" type="submit">Search</button>
-				</form>
-			</div>
-		</nav>
+		<?php include 'php/header.php'; ?>
 		<!-- Jumbotron -->
 		<div class="container p-0 position-relative bg-body">
 			<video class="jumbotronvideo" muted preload="auto" autoplay loop>
@@ -83,6 +44,10 @@
 	</div> -->
 		<!--Main Page Content -->
 		<div class="container px-3 bg-light" id="target">
+			<div class="container text-center p-5">
+				<h2>Want to be up to date on all of our travel adventures?</h2>
+				<a class="btn btn-lg btn-outline-dark px-5" href="pages/newsletter.php" role="button">Sign up for our newsletter</a>
+			</div>
 			<div class="container text-center p-5">
 				<h2 class="">Travel Destinations</h2>
 				<hr />
@@ -165,17 +130,7 @@
 			</div>
 		</div>
 		<!--Footer-->
-		<div class="container-fluid text-center footer p-5 text-white mx-0">
-			<div class="container">
-				<div class="p-4">
-					<img src="img/contactus.png" alt="Contact Us" style="min-width:50px; max-width:150px;"/>
-					<h2> Have any questions?</h2>
-					<p> Reach out to us <a href="pages/contactus.html">here</a>.</p>
-				</div>
-				<hr class="border-5 border-light" />
-				<img class="img-fluid d-block mx-auto mt-5" src="img/logo.png" style="min-width:300px; max-width:40%;" alt="logo" />
-			</div>
-		</div>
+		<?php include 'php/footer.php'; ?>
 	</div>
 </body>
 </html>

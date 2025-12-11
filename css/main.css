@@ -39,6 +39,7 @@ hr{
 }
 html, body {
     overflow-x: hidden;
+    background: #063B61;
 }
 .socialIcon{
     min-width:60px;
