@@ -44,7 +44,7 @@
 	</div> -->
 		<!--Main Page Content -->
 		<div class="container px-3 bg-light" id="target">
-			<div class="container text-center p-5">
+			<div class="container text-center p-3">
 				<h2>Want to be up to date on all of our travel adventures?</h2>
 				<a class="btn btn-lg btn-outline-dark px-5" href="pages/newsletter.php" role="button">Sign up for our newsletter</a>
 			</div>

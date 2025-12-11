@@ -22,6 +22,8 @@ function searchFunction() {
         location.href = "https://wanderlustblog.page/pages/aboutus.php"
     } else if (text.includes("contact")) {
         location.href = "https://wanderlustblog.page/pages/contactus.php"
+    } else if (text.includes("newsletter")) {
+        location.href = "https://wanderlustblog.page/pages/newsletter.php"
     } else if (text == "") {
         form.placeholder = "Please enter text";
     } else {
