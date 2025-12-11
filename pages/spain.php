@@ -133,7 +133,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	<!--Footer-->
 	<?php include '../php/footer.php'; ?>
 	</div>

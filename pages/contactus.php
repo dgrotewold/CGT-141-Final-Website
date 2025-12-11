@@ -31,10 +31,10 @@
 			<p>We don't have a phone number you can call, but if we did it would be <a href="tel:548-90721-35897">(548)-90721-35897</a></p>
 			<p>
 				You can also contact us on our socials:<br />
-				<a href="https://twitter.com/404"><img src="../img/icons/twitter.svg" class="socialIcon" /></a>
-				<a href="https://facebook.com/CreativelyBankrupt"><img src="../img/icons/facebook.svg" class="socialIcon" /></a>
-				<a href="https://instagram.com/404"><img src="../img/icons/instagram.svg" class="socialIcon" /></a>
-				<a href="https://linkedin.com/404"><img src="../img/icons/linkedin.svg" class="socialIcon" /></a>
+				<a href="https://twitter.com/404"><img src="../img/icons/twitter.svg" class="socialIcon" alt="Twitter"/></a>
+				<a href="https://facebook.com/CreativelyBankrupt"><img src="../img/icons/facebook.svg" class="socialIcon" alt="Facebook"/></a>
+				<a href="https://instagram.com/404"><img src="../img/icons/instagram.svg" class="socialIcon" alt="Instagram"/></a>
+				<a href="https://linkedin.com/404"><img src="../img/icons/linkedin.svg" class="socialIcon" alt="LinkedIn"/></a>
 
 			</p>
 			<br />

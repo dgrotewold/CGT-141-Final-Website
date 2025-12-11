@@ -23,7 +23,6 @@
 			<h1>Thank you!</h1>
 			<p>We super duper promise not to sell your data. </p>
 			<a class="btn btn-lg btn-outline-dark px-5" href="/" role="button">Go back to home</a>
-			</form>
 		</div>
 		<!--Footer-->
 		<?php include '../php/footer.php'; ?>

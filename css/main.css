@@ -52,3 +52,6 @@ html, body {
 p {
     font-size: 1.25em;
 }
+.headerLink:hover {
+    color: #F4FF82;
+}

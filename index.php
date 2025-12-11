@@ -53,7 +53,7 @@
 				<hr />
 			</div>
 			<!-- location columns. Abandon hope all ye who enter here -->
-			<div class="row gx-5 equal-height-row ">
+			<div class="row gx-5 equal-height-row">
 				<div class="col text-center d-flex">
 					<div class="p-3 border bg-light">
 						<img src="img/Juan/9bd85b85-3eb0-45b3-8f13-35ab0355dff0-340004207.jpg" class="img-fluid" alt="Spain" />

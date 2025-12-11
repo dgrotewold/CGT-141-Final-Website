@@ -9,11 +9,13 @@
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav ms-auto">
 				<li class="nav-item m-auto px-3">
-					<a class="nav-link active text-white" aria-current="page" href="../">Home</a>
+					<a class="nav-link active text-white" aria-current="page" href="../">
+					<span class="headerLink">Home</span>
+					</a>
 				</li>
 				<li class="nav-item dropdown text-white m-auto px-3">
 					<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						Destinations
+						<span class="headerLink">Destinations</span>
 					</a>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="../pages/spain.php">Spain</a></li>
@@ -25,10 +27,14 @@
 					</ul>
 				</li>
 				<li class="nav-item m-auto px-3">
-					<a class="nav-link text-white" href="../pages/aboutus.php">About</a>
+					<a class="nav-link text-white" href="../pages/aboutus.php">
+						<span class="headerLink">About</span>
+					</a>
 				</li>
 				<li class="nav-item m-auto px-3">
-					<a class="nav-link text-white text-nowrap" href="../pages/contactus.php">Contact Us</a>
+					<a class="nav-link text-white text-nowrap" href="../pages/contactus.php">
+						<span class="headerLink">Contact Us</span>
+					</a>
 				</li>
 			</ul>
 		</div>
