@@ -48,6 +48,18 @@
 					<input type="text" required class="form-control" id="siblingMiddleName" placeholder="Cornelius" />
 				</div>
 				<div class="form-group py-3">
+					<label for="dateOfBirth">Please enter your date of birth (we will be verifying this!)</label>
+					<input type="datetime-local" required class="form-control" id="dateOfBirth"/>
+				</div>
+				<div class="form-group py-3">
+					<label for="phone">Please enter your current phone number</label>
+					<input type="tel" id="phone" required class="form-control"/>
+				</div>
+				<div class="form-group py-3">
+					<label for="sellData"> Do you want us to sell your phone number and personal data to telemarketers? <label>
+					<input class="form-group-input" type="checkbox" id="sellData" name="SellingYourData" checked disabled>
+				</div>
+				<div class="form-group py-3">
 					<button class="btn btn-dark" type="submit">Submit</button>
 				</div>
 			</form>
