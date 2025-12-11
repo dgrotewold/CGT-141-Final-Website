@@ -45,10 +45,7 @@ html, body {
     margin:10px;
 }
 .jumbotronvideo {
-    object-fit:none;
-    object-position: left;
-    height: 50%;
-    max-height: 500px;
+    object-position: center;
     width:100%;
 }
 p {
